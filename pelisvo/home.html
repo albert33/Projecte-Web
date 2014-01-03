@@ -2,37 +2,122 @@
 <html>
 <head>
     <title>HOME</title>
+    
+    <link rel="shortcut icon" href="imatges/favicon.ico">
+    
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 
-<!-- Custom styles for this template -->
-	<link rel="shortcut icon" href="imatges/favicon.ico">
+<!-- CUSTOM CSS -->
+    <link href="css/customcss.css" rel="stylesheet">
+
+
     <!-- Le styles -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+   
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
   </head>
+	<body class="body-home">
 
-<body>
+		<div class="navbar navbar-inverse navbar-fixed-top" id="navbar-full">
+			<div class="navbar-inner" id="navbar-custom">
+				<div class="container" id="container-home">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="brand" href="#">BRAND LOGO</a>
+					
+                    <div class="nav-collapse collapse">
+						<ul class="nav">
+							<li class="active"><a href="#">HOME</a></li>
+              				<li><a href="#series">SERIES</a></li>
+              				<li><a href="#movies">MOVIES</a></li>
+                            <li><a href="#tvshows">TV SHOWS</a></li>
+                            <li><a href="#documentaries">DOCUMENTARIES</a></li>
+              				<li class="dropdown">
+               					<a href="#" class="dropdown-toggle" data-toggle="dropdown">ACCOUNT<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Find friends</a></li>
+									<li><a href="#">Donations</a></li>
+									<li><a href="#">Preferences</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Log out</a></li>
+								</ul>
+							</li>
+						</ul>
+						<form class="navbar-search pull-right" >
+						<input type="text" class="search-query" placeholder="Search" id="search-button-custom">
+						</form>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
+		</div><!-- FI NAVBAR -->
+        
+        <div class="home-container"><!-- TOT EL CONTENT DEL HOME (CENTRAT) -->
+            <div class="programacio-box-tabs">  
+            
+                <ul class="nav nav-tabs">
+		            <li><h4>Your schedule  &nbsp;&nbsp;</h4></li>
+                    <li class="active"><a href="#">SERIES</a></li>
+                    <li><a href="#">MOVIES</a></li>
+                    <li><a href="#">TV SHOWS</a></li>
+                    <li><a href="#">DOCUMENTARIES</a></li>
+                </ul>
+            </div>  
+            
+            <h1> PELICULES DESTACADES</h1>
+		</div><!-- FI DEL CONTENT DEL HOME -->
 
-	<div class="navbar-static-top" role="navigation">
-		<div class="navbar-header">
-			<a href= "#" class="navbar-brand"><img src="imatges/logo02.png"></a>
-		</div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-			<ul class="nav navbar-nav pull-right">
-    	    	<li class="active "><a href="#">HOME</a></li>
-	    	    <li><a href="#">SERIES</a></li>
-		        <li><a href="#">MOVIES</a></li>
-		        <li><a href="#">DOCUMENTARIES</a></li>
-		        <li><a href="#">TV SHOWS</a></li>
-   		        <li><a href="#">ACCOUNT</a></li>
-		    </ul>   
-		</div>
-	</div>
+    <div class="panel-footer" id="footer"> <!-- INICI DEL FOOTER-->
+      <div><!-- INICI DIV FOOTER ESQUERRA -->
+        FOLLOW US ON:<p>
+      </div><!-- FI DIV FOOTER ESQUERRA -->
+      <div><!-- INICI DIV FOOTER DRETA -->
+        Series i Pelis VO 2014
+      </div><!-- FI DIV FOOTER DRETA -->
+    </div><!-- FI DEL FOOTER -->
 
-  
 
-</body>
+	<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+	</body>
 </html>

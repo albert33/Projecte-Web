@@ -7,6 +7,9 @@
 <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 
+<!-- CUSTOM CSS -->
+    <link href="css/customcss.css" rel="stylesheet">
+
 <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet">
 
@@ -19,23 +22,27 @@
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="body-signin">
+  <body class="body-login">
 
-<img src="imatges/logo01.png" id="login-logo">
 
-<div class="container" id="container-login">
+	<div class="container" id=container-login>
 
-      <form class="form-signin">
+      <form class="form-signin" id="form-login">
         <h2 class="form-signin-heading">REGISTER</h2>
-        <h4>Please enter the required data to create a new account</h4>
-        <input type="text" class="form-control" placeholder="First name" autofocus>
+        <h4>Please enter the required data to create a new account</h4><br>
+        <input type="text" class="form-control" placeholder="First name" autofocus>		
+        <br>
         <input type="text" class="form-control" placeholder="Last name" autofocus>
+        <br>
         <input type="text" class="form-control" placeholder="Nickname" autofocus>
+        <br>
         <input type="email" class="form-control" placeholder="Email address" autofocus>
+        <br>
         <input type="password" class="form-control" placeholder="Password">
+        <br>
         <input type="password" class="form-control" placeholder="Repeat password">
-        <h6 id="warning-info">(All fields are required)</h6>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+        <h6 id="warning-allfields"><i>(All fields are required)</i></h6>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">REGISTER</button>
       </form>
 
     </div>

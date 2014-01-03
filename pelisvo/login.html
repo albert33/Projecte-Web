@@ -7,8 +7,11 @@
 <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 
+<!-- CUSTOM CSS -->
+    <link href="css/customcss.css" rel="stylesheet">
+
 <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
+   <!-- <link href="signin.css" rel="stylesheet">-->
     
     <link rel="shortcut icon" href="imatges/favicon.ico">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
@@ -19,20 +22,19 @@
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="body-signin">
-  
-  <img src="imatges/logo01.png" id="login-logo">
-  
-  <div class="container" id="container-login">
-    <form class="form-signin">
+  <body class="body-login">
+
+  <div class="container" id=container-login>
+    <form class="form-signin" id="form-login">
       <h2 class="form-signin-heading">SIGN IN</h2>
-        <h4>Please enter your credentials in order to enter the website</h4>
-        <input type="text" class="form-control" placeholder="Nickname or Email address" autofocus>
+        <h4>Please enter your credentials in order to enter the website</h4><br>
+        <input type="text" class="form-control" placeholder="Nickname or Email address" autofocus><br>
         <input type="password" class="form-control" placeholder="Password">
         <label class="checkbox">
           <input type="checkbox" value="remember-me"> Remember me
         </label>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <br>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">SIGN IN</button>
     </form>
 
   </div>
@@ -46,5 +48,5 @@
     <script src="//code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>
