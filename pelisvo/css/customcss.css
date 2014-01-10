@@ -90,25 +90,38 @@ h1, h2, h3, h4, h5, h6 {
 
 /* SCHEDULE */
 
+#panell-scrollbar {
+   overflow-x: hidden;
+   overflow-y: scroll;
+   margin-bottom: 100px;
+}
+
 .contenidor-schedule-item {
-   width: 130px;
+   width: 120px;
 	height: 230px;
 	margin-right: auto;
    margin-left: auto;
-	padding-bottom: 5px;
+   padding-bottom: 40px;
 	float: left;
 }
 
 .contenidor-schedule-caption {
-   width: 125px;
-   height: 50px;
+   width: 115px;
+   heigth: 50px;
    margin-right: auto;
    margin-left: auto;
+}
+
+.caratula-schedule {
+   width: 115px;
+   heigt: 230px;
 }
 
 .caption-titol {
    color: black;
    text-weight: bold;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
 
 .caption-numero-episodi {
