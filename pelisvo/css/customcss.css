@@ -29,6 +29,18 @@ h1, h2, h3, h4, h5, h6 {
 	width: 770px;
 }
 
+
+.series-contenidor {
+   width: 700px;
+   float: right;
+}
+
+.series-contenidor-buscadors {
+   width: 300px;
+   float: left;
+}
+
+
 .pestanyes-programacio {
    height: 40px;
    margin-bottom: 5px;
@@ -87,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: white;
 	width: 1100px;
 }
+
 
 /* SCHEDULE */
 
@@ -161,25 +174,91 @@ h1, h2, h3, h4, h5, h6 {
 
 .slider-thumbnail {
    width: 250px;
-   height: 250px;
+   height: 300px;
    float: left;
    padding-right: 20px;
 }
 
 .slider-text {
-   width: 100%;
+   width: 370px;
    height: 250px;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
 
 .slider-movie-title {
    color: black;
    font-weight: bold;
+   max-height: 18px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   text-transform: uppercase;
+}
+
+.slider-sinopsis {
+   height: 260px;
+   width: 370px;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
 
 #movie-slider-div {
    width: 650px;
    height: 260px;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
+
+
+/* CAIXA BUSCADORS */
+
+.caixa-buscadors {
+   width: 200px;
+   margin-left: 20px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   background-color: rgb(255, 255, 255);
+   border: 1px solid;
+   border-radius: 4px;
+   border-color: rgb(66, 139, 202);
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.caixa-buscadors-header {
+   color: rgb(255, 255, 255);
+   background-color: rgb(66, 139, 202);
+   border-color: rgb(66, 139, 202);
+   padding: 10px 15px;
+   border-bottom: 1px solid transparent;
+   border-top-right-radius: 3px;
+   border-top-left-radius: 3px;
+   text-transform: uppercase;
+}
+
+.llista-items {
+   margin-bottom: 0px;
+   margin-top: 0px;
+   margin-left: 0px;
+   overflow-x: hidden;
+   overflow-y: scroll;
+   height: 100px;
+}
+
+.caixa-item {
+   border-top-right-radius: 0px;
+   border-top-left-radius: 0px;
+   border-width: 1px 0px;
+   position: relative;
+   display: block;
+   padding: 10px 15px;
+   margin-bottom: -1px;
+   background-color: rgb(255, 255, 255);
+   border: 1px solid rgb(221, 221, 221);
+}
+
+/* CAIXA SERIES */
+
+
 
 
 /* FOOTER DIVS */
